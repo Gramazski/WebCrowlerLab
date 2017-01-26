@@ -1,0 +1,23 @@
+﻿<Window x:Class="WebCrowlerProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewModel="clr-namespace:WebCrowlerProject.ViewModel"
+        xmlns:converter="clr-namespace:WebCrowlerProject.CrawlResultConverter"
+        xmlns:local="clr-namespace:WebCrowlerProject"
+        mc:Ignorable="d"
+        Title="WebCrowler" Height="450" Width="630">
+
+    <Window.Resources>
+        <viewModel:WebCrowlerViewModel x:Key="ViewModel"/>
+        <converter:ResultConverter x:Key="Converter"/>
+    </Window.Resources>
+    <Grid HorizontalAlignment="Left" Height="450" VerticalAlignment="Top" Width="630">
+        <TreeView x:Name="UrlTreeView" HorizontalAlignment="Left" Height="310" VerticalAlignment="Top" Width="610" Margin="0,0,0,0"
+                  ItemsSource="{Binding WebCrawlResult, Converter={StaticResource Converter}, Source={StaticResource ViewModel}}"/>
+        <Button x:Name="crowlerStartButton" Content="Start crawl"  HorizontalAlignment="Left" Margin="535,357,0,0" VerticalAlignment="Top" Width="75" Command="{Binding Command, Source={StaticResource ViewModel}}"/>
+        <TextBox x:Name="counterTextBox" HorizontalAlignment="Left" Height="23" Margin="10,357,0,0" TextWrapping="Wrap" Text="Counter checking textbox" VerticalAlignment="Top" Width="369"/>
+        <Button x:Name="incrementButton" Content="Increment" HorizontalAlignment="Left" Margin="394,357,0,0" VerticalAlignment="Top" Width="75" Click="incrementButton_Click"/>
+    </Grid>
+</Window>

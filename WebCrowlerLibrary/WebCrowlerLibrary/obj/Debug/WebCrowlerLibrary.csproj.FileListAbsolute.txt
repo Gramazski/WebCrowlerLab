@@ -1,0 +1,8 @@
+c:\users\gs\documents\visual studio 2015\Projects\WebCrowlerLibrary\WebCrowlerLibrary\bin\Debug\WebCrowlerLibrary.dll
+c:\users\gs\documents\visual studio 2015\Projects\WebCrowlerLibrary\WebCrowlerLibrary\bin\Debug\WebCrowlerLibrary.pdb
+c:\users\gs\documents\visual studio 2015\Projects\WebCrowlerLibrary\WebCrowlerLibrary\bin\Debug\HtmlAgilityPack.dll
+c:\users\gs\documents\visual studio 2015\Projects\WebCrowlerLibrary\WebCrowlerLibrary\bin\Debug\HtmlAgilityPack.pdb
+c:\users\gs\documents\visual studio 2015\Projects\WebCrowlerLibrary\WebCrowlerLibrary\bin\Debug\HtmlAgilityPack.xml
+c:\users\gs\documents\visual studio 2015\Projects\WebCrowlerLibrary\WebCrowlerLibrary\obj\Debug\WebCrowlerLibrary.csprojResolveAssemblyReference.cache
+c:\users\gs\documents\visual studio 2015\Projects\WebCrowlerLibrary\WebCrowlerLibrary\obj\Debug\WebCrowlerLibrary.dll
+c:\users\gs\documents\visual studio 2015\Projects\WebCrowlerLibrary\WebCrowlerLibrary\obj\Debug\WebCrowlerLibrary.pdb

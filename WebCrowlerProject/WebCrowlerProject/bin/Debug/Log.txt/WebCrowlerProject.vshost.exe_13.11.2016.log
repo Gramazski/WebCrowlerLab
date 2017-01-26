@@ -1,0 +1,11 @@
+[13.11.2016 17:33:40.696]: Crawl result: uncorrect root url.
+[13.11.2016 17:36:30.831]: Crawl result: uncorrect root url.
+[13.11.2016 17:51:31.403]: Load HTML document: uncorrect url.
+[13.11.2016 17:52:15.302]: Load HTML document: uncorrect url.
+[13.11.2016 17:54:26.861]: Load HTML document: uncorrect url.
+[13.11.2016 17:58:31.441]: Load HTML document: uncorrect url.
+[13.11.2016 18:20:25.197]: XML reader: wrong xml data - Входная строка имела неверный формат.
+[13.11.2016 18:20:28.160]: Crawl result: uncorrect root url.
+[13.11.2016 18:20:30.565]: Crawl result: uncorrect root url.
+[13.11.2016 18:20:30.932]: Crawl result: uncorrect root url.
+[13.11.2016 18:23:48.604]: Load HTML document: uncorrect url. Exception message: Произошла ошибка при отправке запроса.
